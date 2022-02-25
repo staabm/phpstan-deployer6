@@ -1,3 +1,4 @@
-includes:
-    - ../stubs/functions.stub
-    - ../stubs/Task.stub
+parameters:
+    stubFiles:
+        - ../stubs/functions.stub
+        - ../stubs/Task.stub
