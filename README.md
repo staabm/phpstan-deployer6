@@ -3,6 +3,8 @@ phpstan stubs for [Deployer version 6](https://github.com/deployphp/deployer) wh
 
 ## Installation
 
+`composer require staabm/phpstan-deployer6`
+
 If you also install [phpstan/extension-installer](https://github.com/phpstan/extension-installer) then you're all set!
 
 <details>
