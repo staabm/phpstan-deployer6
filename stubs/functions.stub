@@ -1,0 +1,17 @@
+<?php
+
+namespace Deployer;
+
+/**
+ * Define a new task and save to tasks list.
+ *
+ * Alternatively get a defined task.
+ *
+ * @param string $name Name of current task.
+ * @param callable():void|array|string|null $body Callable task, array of other tasks names or nothing to get a defined tasks
+ * @return Task\Task
+ * @throws \InvalidArgumentException
+ */
+function task($name, $body = null)
+{
+}

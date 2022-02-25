@@ -1,0 +1,23 @@
+<?php
+
+namespace Deployer\Task;
+
+class Task {
+    /**
+     * @param string $name Tasks name
+     * @param callable():void $callback Task code
+     */
+    public function __construct($name, callable $callback = null)
+    {
+        $this->name = $name;
+        $this->callback = $callback;
+    }
+
+    /**
+     * @return $this
+     */
+    public function once()
+    {
+        return $this;
+    }
+}

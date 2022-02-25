@@ -1,0 +1,3 @@
+includes:
+    - ../stubs/functions.stub
+    - ../stubs/Task.stub
